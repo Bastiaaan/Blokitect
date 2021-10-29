@@ -1,0 +1,1 @@
+C:\Users\Broga\source\repos\Blokitect\Blokitect.App\obj\Debug\netcoreapp3.1\Blokitect.App.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VpW3MEx6XrEoL52uBgmbCNSG0YhBfmdDhfSYeqHHNib/Livg4WJzi06zU8FtGxIC3gXUXiG2w77jti/sxgE24A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Broga\\source\\repos\\Blokitect\\Blokitect.App\\Blokitect.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Broga\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

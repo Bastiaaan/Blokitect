@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ConstructionHeader" datatype="html">
+        <source>Welcome to our platform</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Title for the under construction card</note>
+        <note priority="1" from="meaning">Card Header</note>
+      </trans-unit>
+      <trans-unit id="constructionDescription" datatype="html">
+        <source>Our goal is to make sure that your project has been matched to the best developers for your type of project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">Description for the under construction card</note>
+        <note priority="1" from="meaning">Card Description</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

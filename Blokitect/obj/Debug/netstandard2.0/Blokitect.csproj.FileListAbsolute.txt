@@ -1,0 +1,9 @@
+C:\Users\Broga\source\repos\Blokitect\Blokitect\bin\Debug\netstandard2.0\Blokitect.deps.json
+C:\Users\Broga\source\repos\Blokitect\Blokitect\bin\Debug\netstandard2.0\Blokitect.dll
+C:\Users\Broga\source\repos\Blokitect\Blokitect\bin\Debug\netstandard2.0\Blokitect.pdb
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.csprojAssemblyReference.cache
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.AssemblyInfoInputs.cache
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.AssemblyInfo.cs
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.csproj.CoreCompileInputs.cache
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.dll
+C:\Users\Broga\source\repos\Blokitect\Blokitect\obj\Debug\netstandard2.0\Blokitect.pdb

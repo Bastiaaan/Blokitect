@@ -1,0 +1,134 @@
+
+<h2>Nieuw bedrijf aanmelden</h2>
+<div class="container">
+  <div id="register-form">
+    <form method="post" (ngSubmit)="register()" enctype="multipart/form-data">
+      <mat-tab-group [backgroundColor]="'danger'" [color]="'default'">
+        <mat-tab label="Bedrijfsgegevens">
+          <div class="row mt-4">
+            <p>Wanneer je niet bereikbaar bent en een leverancier zijn diensten aanbiedt. Kan het zo zijn dat we genoodzaakt zijn om naar het algemene email te versturen</p>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" [(ngModel)]="model.companyName" name="companyname" class="form-control w-100 mb-2 mt-2" placeholder="*Bedrijfsnaam" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" [(ngModel)]="model.chamberOfCommerceNumber" name="chamber-of-commerce-number" class="form-control w-100 mb-2 mt-2" placeholder="*KVK-nummer" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" [(ngModel)]="model.vatNumber" name="vat-number" class="form-control w-100 mb-2 mt-2" placeholder="*BTW-nummer" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" [(ngModel)]="model.mailAddress" name="mailAddress" class="form-control w-100 mb-2 mt-2" placeholder="*Algemene emailadres" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" [(ngModel)]="model.phoneNumber" name="phone-number" class="form-control w-100 mb-2 mt-2" placeholder="*Tel. nummer" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" name="website" [(ngModel)]="model.website" class="form-control w-100 mb-2 mt-2" placeholder="Website (optioneel)" />
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="Informatie over bedrijf">
+          <div class="row">
+            <div class="col-md-12">
+              <span>
+                Om snel benaderd te kunnen worden,
+                vragen wij je om hieronder je bedrijfsactiviteiten te omschrijven en in welke sector je bedrijf actief is zodat het
+                voor opdrachtnemers duidelijk is wat ze moeten doen en wat ze kunnen verwachten
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="text" placeholder="Actieve sector(en). scheiden door komma's" [(ngModel)]="model.sectors" class="form-control mt-4 mb-2" name="sectors" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <textarea class="form-control" id="company_description" name="company-activities" [(ngModel)]="model.activities" placeholder="Omschrijf je bedrijfsactiviteiten"></textarea>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="Contactpersonen">
+
+          <!-- Iterating each contactperson added in the array -->
+          <div class="row">
+            <div class="col-md-12">
+              <button (click)="addNewContactPerson()" class="btn btn-warning mb-4 mt-2 float-right">
+                <!--<fa-icon [icon]="faPlusCircle"></fa-icon> --> Nieuw contactpersoon
+              </button>
+            </div>
+          </div>
+
+          <div class="tab" *ngFor="let contactperson of model.contactPeople">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" [(ngModel)]="contactperson.firstname" class="form-control w-100 mb-2" name="firstname" placeholder="Voornaam" />
+              </div>
+              <div class="col-md-6">
+                <input type="text" [(ngModel)]="contactperson.lastname" class="form-control w-100 mb-2" name="lastname" placeholder="Achternaam" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-9">
+                <input type="text" [(ngModel)]="contactperson.email" class="form-control w-100 mb-2" name="email-address" placeholder="E-mailadres" />
+              </div>
+              <div class="col-md-3">
+                <input type="text" [(ngModel)]="contactperson.phoneNumber" class="form-control w-100 mb-2" name="phone-number" placeholder="Tel. nummer" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-7">
+                <input type="text" [(ngModel)]="contactperson.position" class="form-control w-100 mb-2" placeholder="Functie" />
+              </div>
+              <div *ngIf="model.contactPeople[0] === contactperson" class="col-md-5">
+                <label>Ik ben de hoofdpersoon: <input type="checkbox" name="main-contact" [(ngModel)]="contactperson.isMainContact" class="ml-2" /></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" *ngIf="model.contactPeople.length > 1">
+            <ul class="list-inline" id="contact-people-map">
+              <li *ngFor="let person of model.contactPeople; let i = index" class="contactperson-tabs" [attr.data-index]="i" data-toggle="show">
+                [ {{i + 1}} ]
+              </li>
+            </ul>
+          </div>
+
+          <!-- End of session -->
+
+        </mat-tab>
+        <mat-tab label="Algemene voorwaarden">
+          <div class="row mt-3">
+            <label>Ik heb de Algemene voorwaarden grondig doorgenomen en ga hiermee akkoord: <input type="checkbox" name="agreed" [(ngModel)]="agreed" /></label>
+            <div class="col-md-12 mt-3" *ngIf="agreed === true">
+              <input type="submit" value="Registreren" class="btn btn-warning w-100" />
+            </div>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+      <div class="row">
+        <div class="col-md-12">
+          <!--<input type="text" [(ngModel)]="model." class="form-control w-100" placeholder="" />-->
+        </div>
+      </div>
+    </form>
+    <div class="row mt-2">
+      <div class="col-md-12">
+        <p>Heb je geen bedrijf, maar heb je wel ideeën? Dan kan je ook als <a [routerLink]="'private'">particulier</a> aanmelden!</p>
+      </div>
+    </div>
+  </div>
+</div>
+

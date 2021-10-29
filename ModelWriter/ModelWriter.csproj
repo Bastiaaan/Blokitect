@@ -1,0 +1,106 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="company-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CompanyViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="component-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ComponentViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="contactPerson-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ContactPersonViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="createPassword-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CreatePasswordViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customer-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customerProject-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerProjectViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customerprojectviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerProjectViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customerRegister-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerRegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customerregisterviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerRegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customerSupplier-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerSupplierViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="customersupplierviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\CustomerSupplierViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="enums.ts">
+      <CustomToolNamespace>..\Blokitect.Data\Models\Enums\Enums.cs</CustomToolNamespace>
+    </None>
+    <None Update="F.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\FunctionViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="function-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\FunctionViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="functionviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\FunctionViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="login-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\LoginViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="private-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\PrivateViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="project-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ProjectViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="projectSupplier-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ProjectSupplierViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="projectsupplierviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ProjectSupplierViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="R.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ReviewViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="register-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\RegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="registerviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\RegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="returnvalue-enum.ts">
+      <CustomToolNamespace>..\Blokitect.Data\Models\Enums\ReturnValue.cs</CustomToolNamespace>
+    </None>
+    <None Update="review-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ReviewViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="reviewviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\ReviewViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="super-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\SuperViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="supplier-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\SupplierViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="supplierRegister-model.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\SupplierRegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="supplierregisterviewmodel.ts">
+      <CustomToolNamespace>..\Blokitect.Data\ViewModels\SupplierRegisterViewModel.cs</CustomToolNamespace>
+    </None>
+    <None Update="suppliertype.ts">
+      <CustomToolNamespace>..\Blokitect.Data\Models\Enums\SupplierType.cs</CustomToolNamespace>
+    </None>
+    <None Update="userrole-enum.ts">
+      <CustomToolNamespace>..\Blokitect.Data\Models\Enums\UserRole.cs</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+
+</Project>

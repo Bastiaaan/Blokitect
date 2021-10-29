@@ -1,0 +1,11 @@
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.AssemblyInfoInputs.cache
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.AssemblyInfo.cs
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.csproj.CoreCompileInputs.cache
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\bin\Debug\netcoreapp3.1\Blokitect.Data.deps.json
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\bin\Debug\netcoreapp3.1\Blokitect.Data.runtimeconfig.json
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\bin\Debug\netcoreapp3.1\Blokitect.Data.runtimeconfig.dev.json
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\bin\Debug\netcoreapp3.1\Blokitect.Data.dll
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\bin\Debug\netcoreapp3.1\Blokitect.Data.pdb
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.dll
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.pdb
+C:\Users\Broga\source\repos\Blokitect\Blokitect.Data\obj\Debug\netcoreapp3.1\Blokitect.Data.genruntimeconfig.cache

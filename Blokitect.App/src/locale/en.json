@@ -1,0 +1,21 @@
+{
+  "Home": {
+
+  },
+  "about_us": {
+
+  },
+  "projects": {
+
+  },
+  "chats": {
+
+  },
+  "translate_test": {
+
+  },
+  "TRANSLATE_TEST": {
+    "HELLO": "hello {{value}}",
+    "CUSTOM": "This is a Lorem Ipsum experimental text named {{value}}",
+  }
+}
